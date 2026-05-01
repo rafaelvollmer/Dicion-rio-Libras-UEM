@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Dicionário Libras</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+  <!-- LOADING -->
+
+  <section id="loading">
+
+    <img src="img/uem.png" class="loading-logo">
+
+    <h1>UNIVERSIDADE ESTADUAL DE MARINGÁ</h1>
+
+    <div class="loader"></div>
+
+  </section>
+
+  <!-- ALERTA -->
+
+  <div class="overlay" id="overlay"></div>
+
+  <section class="welcome-box" id="welcomeBox">
+
+    <h2>Bem-vindo</h2>
+
+    <p>
+      Os links ficarão armazenados no seu aparelho.
+      Caso troque de celular, os dados poderão ser perdidos.
+    </p>
+
+    <input type="text" id="username" placeholder="Digite seu nome ou apelido">
+
+    <h3>Escolha um avatar</h3>
+
+    <div class="avatars">
+
+      <img src="img/banana.png" class="avatar-option">
+      <img src="img/cachorro.png" class="avatar-option">
+      <img src="img/cogumelo.png" class="avatar-option">
+      <img src="img/espada.png" class="avatar-option">
+      <img src="img/estrela.png" class="avatar-option">
+      <img src="img/flor.png" class="avatar-option">
+      <img src="img/gato.png" class="avatar-option">
+      <img src="img/lua.png" class="avatar-option">
+
+    </div>
+
+    <label class="upload-photo">
+
+      Importar Foto
+
+      <input type="file" id="uploadAvatar" hidden>
+
+    </label>
+
+    <button id="startBtn">
+      Entrar
+    </button>
+
+  </section>
+
+  <!-- HEADER -->
+
+  <header>
+
+    <div class="left-header">
+
+      <img src="img/uem.png" class="uem-logo">
+
+      <div>
+
+        <h1>UNIVERSIDADE ESTADUAL DE MARINGÁ</h1>
+
+        <span>Dicionário Libras</span>
+
+      </div>
+
+    </div>
+
+    <div class="profile" id="profileBtn">
+
+      <img src="img/banana.png" id="profileAvatar">
+
+      <p id="profileName">Usuário</p>
+
+    </div>
+
+  </header>
+
+  <!-- MENU PERFIL -->
+
+  <section class="profile-menu" id="profileMenu">
+
+    <h2>Trocar Avatar</h2>
+
+    <div class="menu-avatars">
+
+      <img src="img/banana.png" class="change-avatar">
+      <img src="img/cachorro.png" class="change-avatar">
+      <img src="img/cogumelo.png" class="change-avatar">
+      <img src="img/espada.png" class="change-avatar">
+      <img src="img/estrela.png" class="change-avatar">
+      <img src="img/flor.png" class="change-avatar">
+      <img src="img/gato.png" class="change-avatar">
+      <img src="img/lua.png" class="change-avatar">
+
+    </div>
+
+  </section>
+
+  <!-- MAIN -->
+
+  <main>
+
+    <section class="hero">
+
+      <div class="hero-text">
+
+        <h2>
+          Pesquise sinais em Libras no YouTube
+        </h2>
+
+        <p>
+          Plataforma simples, acessível e moderna para pesquisas rápidas em Libras.
+        </p>
+
+      </div>
+
+      <img src="img/youtube.png" class="youtube-image">
+
+    </section>
+
+    <!-- PESQUISA -->
+
+    <section class="search-area">
+
+      <div class="search-box">
+
+        <img src="img/lupa.png">
+
+        <input type="text"
+        id="searchInput"
+        placeholder="Digite sua pesquisa...">
+
+      </div>
+
+      <button id="searchBtn">
+
+        PESQUISAR
+
+      </button>
+
+    </section>
+
+    <!-- HISTÓRICO -->
+
+    <section class="history">
+
+      <div class="history-title">
+
+        <h2>Pesquisas Recentes</h2>
+
+      </div>
+
+      <div id="historyList"></div>
+
+    </section>
+
+  </main>
+
+  <!-- WHATSAPP -->
+
+  <a
+  href="https://wa.me/5565998075030?text=Oii%2C%20me%20chamo..."
+  target="_blank"
+  class="whatsapp-btn">
+
+    <img src="img/whatsapp.png">
+
+  </a>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
